@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title KshX Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+              img(src="../static/img/logo.png", alt="") 
+              | KshxDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services  ]
+            li #[a(href="/") Class Info]
+            li #[a(href="./contact") Contact Us]
+
+    block content
+    //- block foot
+    footer#footer 
+        |   Copyright &copy;2021-22 sharma.karan27oct@gmail.com | All rights reserved
